@@ -63,6 +63,7 @@ Biểu diễn đặc trưng:
   		Đo lường mức độ phổ biến của từ trong toàn bộ tập hợp tài liệu.
       Nếu một từ xuất hiện trong hầu hết tài liệu, IDF của từ đó sẽ thấp, vì nó không phải là một từ đặc biệt. Ngược lại, nếu một từ chỉ xuất hiện trong một vài tài liệu, IDF của từ đó sẽ cao, cho thấy từ này có tính đặc trưng cao hơn.
     - Công cụ thực hiện: thư viện sklearn.feature_extraction.text hỗ trợ cả 2 kiểu chuyển đổi trên thông qua hàm CountVectorizer cho Bag-of-word và TfidfVectorizercho TF-IDF
+
 Áp dụng vào thuật toán:
 	 ![image](https://github.com/user-attachments/assets/32dc3aba-2e49-4a5a-8d6c-a028b7902642)
 
@@ -77,5 +78,7 @@ Bảng thống kê độ chính xác của thuật toán với các loại dữ 
  ![image](https://github.com/user-attachments/assets/368c0221-02fe-434f-b0d8-d368ef3ccb25)
 Kết luận:
 Thuật toán Naive Bayes là 1 thuật toán đơn giản, cần ít dữ liệu huấn luyện nhưng vẫn đưa ra được độ chính xác tương đối: 87%-88%.
-Phụ thuộc không nhiều vào dữ liệu huấn luyện đầu vào
+
+Phụ thuộc không nhiều vào dữ liệu huấn luyện đầu vào.
+
 Đạt hiệu quả cao nhất khi kết hợp với chuyển đổi dữ liệu văn bảng sang số liệu bằng Bag-of-word
